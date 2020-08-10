@@ -1,0 +1,75 @@
+body{
+font-family: 'Roboto Slab', serif;
+background-color: lightgoldenrodyellow;    
+}
+
+.container{
+height: 330px;
+width: 1000px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+background: rgba(255, 255, 255, 0.5);
+padding: 20px;
+border: 1px solid  gray;
+box-shadow: 0 0 8px 3px lightskyblue;
+}
+
+.title{
+padding-top: 20px;
+font-size: 36px;
+text-align: center;
+text-transform: uppercase; 
+color: royalblue;   
+}
+
+.question{
+padding: 20px; 
+font-size: 22px;
+background: lightblue;
+border-radius: 20px;
+margin: 10px 0 10px 0px;
+color: black;
+}
+.option{
+width: 470px;
+display: inline-block;
+padding: 10px 0 10px 15px;
+vertical-align: middle;
+background: rgba(125, 176, 180, 0.698);
+margin: 10px 0 10px 10px;
+color: black;
+border-radius: 20px;    
+}
+.option:hover{
+background: grey;
+color: white;    
+}
+
+.next-btn{
+border: none;
+outline: none;
+background: royalblue;
+width: 120px;
+height: 35px;
+border-radius: 20px;
+cursor: pointer;
+float: right; 
+margin: 10px;   
+}
+.next-btn:hover{
+background: darkslategrey;
+color:white;    
+}
+
+.result{
+height: 100px;
+text-align: center;
+font-size: 75px;    
+}
+
+.option input:checked.option{
+background: lightblue;
+color: #000;
+}
